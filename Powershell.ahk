@@ -1,7 +1,7 @@
 ;Run Powershell
-#T:: Run Powershell ; Win+T
+#T:: Run pwsh.exe ; Win+T
 Return
 
 ;Run Poweshell as admin
-^#T:: Run *RunAs Powershell ; Ctrl+Win+T
+^#T:: Run *RunAs pwsh.exe ; Ctrl+Win+T
 Return
