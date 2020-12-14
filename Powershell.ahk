@@ -1,7 +1,10 @@
+cmd = pwsh ; Powershell 6
+; cmd = powershell ; For using Powershell < 6 uncomment this line
+
 ;Run Powershell
-#T:: Run Powershell ; Win+T
+#T:: Run %cmd%, %A_MyDocuments% ; Win+T
 Return
 
 ;Run Poweshell as admin
-^#T:: Run *RunAs Powershell ; Ctrl+Win+T
+^#T:: Run *RunAs %cmd%, %A_WinDir% ; Ctrl+Win+T
 Return
